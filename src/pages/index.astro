@@ -1,7 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
+const pageTitle = "Welcome to Astro.";
 ---
 
-<Layout title="Welcome to Astro.">
-  <h1>My Astro Site</h1>
+<Layout title={pageTitle}>
+  <h1>{pageTitle}</h1>
 </Layout>
